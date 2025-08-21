@@ -1,0 +1,27 @@
+{
+  "shipments": [
+    {
+      "trackingNumber": "TRK123456",
+      "status": "Out for Delivery",
+      "lastUpdated": "2025-08-21T08:10:00Z",
+      "eta": "2025-08-21T17:30:00Z",
+      "events": [
+        { "time": "2025-08-18T10:05:00Z", "status": "Picked Up", "location": "Kozhikode" },
+        { "time": "2025-08-19T08:20:00Z", "status": "In Transit", "location": "Bengaluru Hub" },
+        { "time": "2025-08-21T06:45:00Z", "status": "Out for Delivery", "location": "Kochi" }
+      ]
+    },
+    {
+      "trackingNumber": "TRK000111",
+      "status": "Delivered",
+      "lastUpdated": "2025-08-17T12:00:00Z",
+      "eta": "2025-08-17T12:00:00Z",
+      "events": [
+        { "time": "2025-08-15T09:00:00Z", "status": "Picked Up", "location": "Palakkad" },
+        { "time": "2025-08-16T15:30:00Z", "status": "In Transit", "location": "Thrissur" },
+        { "time": "2025-08-17T09:45:00Z", "status": "Out for Delivery", "location": "Kochi" },
+        { "time": "2025-08-17T12:00:00Z", "status": "Delivered", "location": "Kochi" }
+      ]
+    }
+  ]
+}
